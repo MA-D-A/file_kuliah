@@ -13,7 +13,7 @@ int main() {
 
        if (Total < 100) {
         std::cout << "total kecil" << std::endl;
-    } else if (Total >= 100 & Total <= 200) {
+    } else if (Total >= 100 & Total < 200) {
         std::cout << "total sedang" << std::endl;
     } else if (Total >= 200) {
         std::cout << "total besar" << std::endl;
