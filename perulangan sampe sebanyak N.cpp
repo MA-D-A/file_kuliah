@@ -1,5 +1,5 @@
 #include <iostream>
-int N, Total;
+int N, Total = 0;
 
 int main() {
     std::cout << "masukan  nila n: ";
