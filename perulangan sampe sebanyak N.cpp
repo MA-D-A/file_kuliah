@@ -10,5 +10,6 @@ int main() {
     }
     std::cout << "" << std::endl;
     std::cout << "totalnya adalah " << Total << std::endl;
+    return 0;
 }
-return 0;
+
