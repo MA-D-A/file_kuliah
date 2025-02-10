@@ -10,6 +10,14 @@ int main() {
     }
     std::cout << "" << std::endl;
     std::cout << "totalnya adalah " << Total << std::endl;
+
+       if (Total < 100) {
+        std::cout << "total kecil" << std::endl;
+    } else if (Total >= 100 & Total <= 200) {
+        std::cout << "total sedang" << std::endl;
+    } else if (Total >= 200) {
+        std::cout << "total besar" << std::endl;
+    }
     return 0;
 }
 
