@@ -23,5 +23,5 @@ int main() {
     std::cin >> b;
 
     std ::cout << "hasilnya adalah " << Aneh(a, b) << std::endl;
-    std ::cout << "modulus nya adalah" << modulo(a, b);
+    std ::cout << "modulus nya adalah " << modulo(a, b);
 }
