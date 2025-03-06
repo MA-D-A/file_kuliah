@@ -15,16 +15,16 @@ int main() {
     if (N > 0) {
         data_diri mahasiswa[N];
         for (int i = 0; i < N; i++) {
-            std::cout << "masukana nim ";
+            std::cout << "masukan nim ";
             std::cin >> mahasiswa[i].nim;
-            std::cout << "masukana nama ";
+            std::cout << "masukan nama ";
             std::cin.ignore();
             std::getline(std::cin, mahasiswa[i].nama);
-            std::cout << "masukana Matkul ";
+            std::cout << "masukan Matkul ";
             std::cin >> mahasiswa[i].MatKul;
-            std::cout << "masukana sks ";
+            std::cout << "masukan sks ";
             std::cin >> mahasiswa[i].sks;
-            std::cout << "masukana huruf mutu ";
+            std::cout << "masukan huruf mutu ";
             std::cin >> mahasiswa[i].Huruf_mutu;
         }
         std::cout << " " << std::endl;
