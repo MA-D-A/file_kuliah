@@ -12,4 +12,4 @@ int main() {
         cout << "Data index ke-" << i << " = ";
         cout << tinggi[i] << endl;
     }
-}0
+}
